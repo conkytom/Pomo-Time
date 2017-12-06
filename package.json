@@ -1,0 +1,19 @@
+{
+  "name": "bloctime",
+  "version": "1.0.0",
+  "description": "A pomodoro time managment application",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conkytom/bloctime.git"
+  },
+  "author": "Thomas Conkwright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conkytom/bloctime/issues"
+  },
+  "homepage": "https://github.com/conkytom/bloctime#readme"
+}
