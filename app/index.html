@@ -3,7 +3,8 @@
     <head lang="en">
         <meta charset="UTF-8">
         <title>Bloc Time</title>
-        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" type="text/css" href="/scripts/styles/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     </head>
     <body>
         <ui-view></ui-view>
@@ -19,6 +20,9 @@
         
         <!-- AngularFire -->
         <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+
+        <!-- AngularTimer -->
+        <script src="/scipts/timer.js"></script>
         
         <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
         <script>
@@ -36,5 +40,7 @@
 
         <!-- Application Files -->
         <script src="/scripts/app.js"></script>
+        <script src="/scipts/controllers/HomeCtrl.js"></script>
+        <script src="/scipts/controllers/TimeCtrl.js"></script>
     </body>
 </html>

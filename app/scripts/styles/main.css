@@ -1,0 +1,119 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background: #cecece;
+}
+
+.interface { 
+    width: 210px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin: 0 auto;
+}
+
+.timer {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.minutes {
+
+}
+
+.seconds {
+
+}
+
+.miliseconds {
+
+}
+
+.button {
+    font-family: 'Libre Baskerville', serif;
+    border: 0;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    position: center;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 5px #696969;
+}
+
+.button:active {
+    color: black;
+    
+}
+
+.start-button{
+    font-size: 24px;
+    width: 210px;
+    background-color: #1dc262;
+    
+}
+
+.start-button:active {
+    background-color: #a5eca9;
+}
+
+.stop-button {
+    font-size: 24px;
+    width: 210px;
+    background-color: #c94141;
+    
+}
+
+.stop-button:active {
+    background-color: #cc7f7f;
+}
+
+.break-buttons:active {
+    
+}
+
+.break-5 {
+    font-size: 24px;
+    width: 210px;
+    background-color: #5b90e0;
+}
+
+.break-5:active {
+    background: #a9c5e9;
+}
+
+.break-15 {
+    width: 100px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #578577;
+}
+
+.break-30 {
+    width: 100px;
+    text-align: center;
+    background-color: #578577;
+}
+
+.break-15:active, .break-30:active {
+    background-color: #99b3aa;
+}
+
+
+
+.banner {
+    
+    width: 100%;
+    text-align: center;
+}
+
+.break-text {
+    display: inline-block;
+    letter-spacing: 6px;
+    
+}
