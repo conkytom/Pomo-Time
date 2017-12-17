@@ -1,7 +1,7 @@
 <section class="left-menu">
 </section>
 
-<section class="interface">
+<section class="interface" ng-controller="TimerCtrl as timer">
     <div class="banner">
         <a class="break-text">TAKE A BREAK</a>
         <a class="break-text">BREAK TIME</a>
@@ -9,15 +9,18 @@
         <a class="start-text">WORK SESSION</a>
     </div>
     <div class="timer">
-        <a class="minutes">11</a>:<a class="seconds">88</a>:<a class="miliseconds">88</a>
+       {{ timer.countdown }}
     </div>
     <div class="intarface-buttons">
-        <button class="button start-button" ng-click="timer.start()">START</button>
+        <button class="button start-button" ng-click="timer.start(25)">START</button>
         <button class="button stop-button"  ng-click="timer.stop()" >STOP</button>
         <div class="break-buttons">
-            <button class="button break-5"  ng-click="timer.break_5()" >5 MINS</button>
-            <button class="button break-15" ng-click="timer.break_15()">15 MINS</button>
-            <button class="button break-30" ng-click="timer.break_30()">30 MINS</button>
+            <button class="button break-5"  ng-click="timer.start(5)" >5 MINS</button>
+            <button class="button break-15" ng-click="timer.start(15)">15 MINS</button>
+            <button class="button break-30" ng-click="timer.start(30)">30 MINS</button>
         </div>
+    </div>
+    <div class="footer">
+        <small>Countdown ended at {{ time }}</small>
     </div>
 </section>
