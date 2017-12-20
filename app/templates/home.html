@@ -16,11 +16,13 @@
         <button class="button stop-button"  ng-click="timer.countdown.stop()" ng-show="timer.countdown.state == 'working' || timer.countdown.state == 'break'">STOP</button>
         <div class="break-buttons" ng-show="timer.countdown.state == 'startBreak'">
             <button class="button break-5"  ng-click="timer.countdown.start(5, 'break')" >5 MINS</button>
-            <button class="button break-15" ng-click="timer.countdown.start(15, 'break')">15 MINS</button>
-            <button class="button break-30" ng-click="timer.countdown.start(30, 'break')">30 MINS</button>
+            <div class="longer-breaks-buttons" ng-show="timer.countdown.pomodoro == 4">
+                <button class="button break-15" ng-click="timer.countdown.start(15, 'break')">15 MINS</button>
+                <button class="button break-30" ng-click="timer.countdown.start(30, 'break')">30 MINS</button>
+            </div>
         </div>
     </div>
     <div class="footer" ng-show="timer.countdown.display == 0">
-        <small>Countdown ended at {{ time | timecode }}</small>
+        <small>Countdown ended at {{ timer.countdown.endTime }}</small>
     </div>
 </section>
