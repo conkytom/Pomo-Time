@@ -1,5 +1,5 @@
 (function() {
-    function TimerCtrl($interval) {
+    function TimerCtrl(Countdown) {
 /**
  * 30min = 1800 seconds
  * 25min = 1500 seconds
@@ -22,27 +22,17 @@
  *      button: Break Buttons(5,15,30)
  * -break
  *      banner: Break Time
- *      timer: countdown from 5/15/30
+ *      timer: countdown from 5/15/30 mins
  *      button: Stop(alerts that it ends break
  *              resets to startWork)
  * Footer always gives the time that the last session 
  * or break ended or was stopped.
  */
 
-        this.countdown = "25:00";
-        this.state = "startWork";
-
-        this.start = function(time, state) {
-
-        };
-
-        this.stop = function() {
-            
-        };
-
+        this.countdown = Countdown;
     }
 
     angular
         .module('blocTime')
-        .controller('TimerCtrl', ['$interval', TimerCtrl]);
+        .controller('TimerCtrl', ['Countdown', TimerCtrl]);
 })();
