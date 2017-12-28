@@ -1,4 +1,12 @@
-<section class="left-menu">
+<section class="left-menu" ng-controller="TaskCtrl as taskCtrl">
+    <div class="to-do">
+        
+    </div>
+    <div class="completed">
+        <h4>Add Completed Task</h4>
+        <input type="text" name="task" class="task-input" ng-model="taskCtrl.taskTitle" placeholder="Enter completed task">
+        <button class="button task-button" ng-click="taskCtrl.addTask()">Add Task</button>
+    </div>
 </section>
 
 <section class="interface" ng-controller="TimerCtrl as timer">

@@ -3,6 +3,15 @@ body {
     background: #cecece;
 }
 
+.left-menu {
+    position: fixed;
+    left:0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #9faec5;
+}
+
 .interface { 
     width: 210px;
     position: absolute;
@@ -17,18 +26,6 @@ body {
     width: 100%;
     font-size: 50px;
     text-align: center;
-}
-
-.minutes {
-
-}
-
-.seconds {
-
-}
-
-.miliseconds {
-
 }
 
 .button {
@@ -104,8 +101,6 @@ body {
     background-color: #99b3aa;
 }
 
-
-
 .banner {
     
     width: 100%;
@@ -116,4 +111,24 @@ body {
     display: inline-block;
     letter-spacing: 6px;
     
+}
+
+.completed {
+    margin: 10px;
+}
+
+.task-button {
+    position: right;
+    width: 75px;
+    height: 25px;
+    font-size: 12px;
+    background-color: #b1bac9;
+}
+
+.task-input {
+    position: center;
+    width: 150px;
+    padding: 3px;
+    margin-left: 8px;
+    margin-bottom: 5px;
 }
