@@ -132,3 +132,15 @@ body {
     margin-left: 8px;
     margin-bottom: 5px;
 }
+
+.task-list {
+
+}
+
+.task {
+    text-transform: uppercase;
+}
+
+.task-date {
+    font-size: 10px;
+}

@@ -4,6 +4,8 @@
             //console.log(this.taskTitle);
             Task.add(this.taskTitle);
         };
+
+        this.tasks = Task.all
     }
 
     angular
