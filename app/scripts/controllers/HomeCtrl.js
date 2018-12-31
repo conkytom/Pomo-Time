@@ -5,6 +5,6 @@
     }
 
     angular
-        .module('blocTime')
+        .module('pomoTime')
         .controller('HomeCtrl', [HomeCtrl]);
 })();

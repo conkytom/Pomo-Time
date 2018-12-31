@@ -27,6 +27,6 @@
     }
 
     angular
-        .module('blocTime')
+        .module('pomoTime')
         .filter('timecode', timecode);
 })();

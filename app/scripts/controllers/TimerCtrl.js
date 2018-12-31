@@ -33,6 +33,6 @@
     }
 
     angular
-        .module('blocTime')
+        .module('pomoTime')
         .controller('TimerCtrl', ['Countdown', TimerCtrl]);
 })();

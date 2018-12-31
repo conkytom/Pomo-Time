@@ -15,6 +15,6 @@
     }
     
     angular
-        .module('blocTime', ['ui.router', 'firebase'])
+        .module('pomoTime', ['ui.router', 'firebase'])
         .config(config);
 })();

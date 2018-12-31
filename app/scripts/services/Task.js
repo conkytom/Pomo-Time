@@ -22,6 +22,6 @@
     }
   
     angular
-        .module('blocTime')
+        .module('pomoTime')
         .factory('Task', ['$firebaseArray', Task]);
   })();

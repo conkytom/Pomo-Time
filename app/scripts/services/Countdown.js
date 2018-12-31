@@ -77,6 +77,6 @@
         return Countdown;
     }
         angular
-        .module('blocTime')
+        .module('pomoTime')
         .factory('Countdown', ['$interval', Countdown]);
 })();

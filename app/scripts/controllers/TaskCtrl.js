@@ -9,6 +9,6 @@
     }
 
     angular
-        .module('blocTime')
+        .module('pomoTime')
         .controller('TaskCtrl', ['Task', TaskCtrl]);
 })();
