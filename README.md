@@ -1,4 +1,4 @@
-# Bloctime
+# Pomo-Time
 
 This simple, but incredibly helpful, application was created to help users utilize the power of the [Pomodoro Technique](https://francescocirillo.com/pages/pomodoro-technique), a time management [life hack](https://en.wikipedia.org/wiki/Life_hack) designed to break up a person's work into intense, but manageable 25 minute increments with breaks in between to unwind and clear the mind.
 
